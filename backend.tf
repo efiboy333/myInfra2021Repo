@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "wealthy-bucket"
+    bucket = "i-am-rich-and-wealthy"
     key = "main"
     region = "eu-west-2"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "we-are-rich-and-wealthy"
   }
 }
