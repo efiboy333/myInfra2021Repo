@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "i-am-rich-and-wealthy" {
+resource "aws_s3_bucket" "victory" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
   
